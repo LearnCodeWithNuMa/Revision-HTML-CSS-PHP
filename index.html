@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 class="title">Formulaire d'Inscription</h1>
+            <h2 class="secondtitle">Bienvenue sur notre site !</h2>
+        </nav>
+    </header>
+
+    <section>
+        <article>
+            <form action="inscription.php" method="POST">
+                <fieldset>
+                    <legend>INSCRIPTION</legend>
+                        <label for="nom"><span class="text">Nom :</span></label>
+                    <br/>
+                        <input type="text" id="lastname" name="lastname" placeholder="Votre Nom" required />
+                    <br/>
+                    <br/>
+                        <label for="nom"><span class="text">Prénom :</span></label>
+                    <br/>
+                        <input type="text" id="firstname" name="firstname" placeholder="Votre Prénom" required />
+                    <br/>
+                    <br/>
+                        <label for="nom"><span class="text">Email :</span></label>
+                    <br/>
+                        <input type="email" id="mail" name="mail" placeholder="example@mail.com" required />
+                    <br/>
+                    <br/>
+                        <label for="nom"><span class="text">Mot de Passe :</span></label>
+                    <br/>
+                        <input type="password" id="mdp" name="mdp" required />
+                    <br/>
+                    <br/>
+                        <input type="submit" class="btn-submit">
+                </fieldset>
+            </form>
+        </article>
+    </section>
+
+    <footer>
+    </footer>
+</body>
+</html>

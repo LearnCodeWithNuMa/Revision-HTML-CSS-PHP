@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #181818;
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+.secondtitle {
+    font-size: 1.35em;
+    text-align: center;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.text {
+    font-weight: bold;
+}
+
+.text2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+form {
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 100px;
+    left: 50%;
+    text-align: left;
+} 
+
+.btn-submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #AE6BE9;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
